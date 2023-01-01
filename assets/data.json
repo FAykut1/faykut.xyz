@@ -1,0 +1,37 @@
+{
+  "header": "<FatihAykut />",
+  "skills": [
+    "Node.Js",
+    "Java",
+    "Spring",
+    "Spring Boot",
+    "SQL",
+    "Python",
+    "Solidity",
+    "Docker",
+    "MongoDB",
+    "Firebase",
+    "ReactJs",
+    "VueJs",
+    "Javascript",
+    "HTML / CSS",
+    "React Native",
+    "Typescript"
+  ],
+  "workExperiences": [
+    {
+      "name": "Softtech",
+      "position": "Full-Stack Developer",
+      "startDate": "15 September 2021",
+      "endDate": "Present",
+      "summary": "Worked in Bankassurance Team and developed Isbank Insurance screens for the end user. Developed web service operations using Spring Framework. Integrated an external REST service clients on our backend services for showing or sending some information to the other companies."
+    },
+    {
+      "name": "Softtech",
+      "position": "Intern",
+      "startDate": "15 August 2021",
+      "endDate": "15 September 2021",
+      "summary": "Developed a REST API using Spring Boot and relational database connections. Spring Batch project for adding and validating multiple records to the PostgreSQL database."
+    }
+  ]
+}
