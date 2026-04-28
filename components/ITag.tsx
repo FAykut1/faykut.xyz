@@ -6,7 +6,7 @@ type ITagProps = {
 
 const ITag: React.FC<ITagProps> = ({ title }) => {
   return (
-    <li className="bg-gray-800 rounded-full p-2 m-2 text-xl md:p-1 md:m-1 md:text-lg lg:text-xl">
+    <li className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-slate-200 backdrop-blur-sm transition hover:border-cyan-300/40 hover:text-white md:text-base">
       {title}
     </li>
   );

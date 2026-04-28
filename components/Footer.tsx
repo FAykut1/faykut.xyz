@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-full bg-gray-900 text-white p-4 text-center">
-      <p>Copyright By Fatih Aykut 2023</p>
+    <footer className="border-t border-white/10 px-6 py-6 text-center text-sm text-slate-400 md:px-10">
+      <p>Designed for Fatih Aykut • Updated 2026</p>
     </footer>
   );
 };

@@ -1,37 +1,68 @@
 {
   "header": "<FatihAykut />",
+  "name": "Fatih Aykut",
+  "role": "Backend-Focused Full-Stack Developer",
+  "location": "Kadıköy, İstanbul",
+  "email": "fatihaykutdev@gmail.com",
+  "phone": "+90 534 860 64 29",
+  "summary": "Backend-focused Full-Stack Developer with 4+ years of experience building and maintaining production software in high-traffic and enterprise environments. Experienced in Python, Django, Java, Spring, MySQL, Redis, and cloud services such as AWS. Worked on livestream and insurance systems, collaborating with cross-functional teams to deliver scalable, reliable, and user-focused features.",
+  "highlights": [
+    "4+ years of professional experience",
+    "Built software for enterprise and high-traffic products",
+    "Strong backend foundation with full-stack delivery experience"
+  ],
   "skills": [
-    "Node.Js",
-    "Java",
-    "Spring",
-    "Spring Boot",
-    "SQL",
     "Python",
-    "Solidity",
+    "Java",
+    "JavaScript",
+    "Django",
+    "Spring",
+    "REST APIs",
+    "SOAP",
+    "Vue.js",
+    "Node.js",
+    "Google Web Toolkit",
+    "MySQL",
+    "Oracle",
+    "Redis",
+    "AWS Lambda",
+    "S3",
+    "CloudFront",
     "Docker",
-    "MongoDB",
-    "Firebase",
-    "ReactJs",
-    "VueJs",
-    "Javascript",
-    "HTML / CSS",
-    "React Native",
-    "Typescript"
+    "Jenkins",
+    "Git",
+    "BigQuery",
+    "Google Cloud Functions"
   ],
   "workExperiences": [
     {
-      "name": "Softtech",
-      "position": "Full-Stack Developer",
-      "startDate": "15 September 2021",
+      "name": "Scorp",
+      "position": "Full-Stack Developer – Superlive App",
+      "startDate": "May 2023",
       "endDate": "Present",
-      "summary": "Worked in Bankassurance Team and developed Isbank Insurance screens for the end user. Developed web service operations using Spring Framework. Integrated an external REST service clients on our backend services for showing or sending some information to the other companies."
+      "summary": "Developed and maintained backend services and moderation systems for a high-traffic livestream application serving millions of users globally. Built and improved REST API features for web and mobile clients, worked with Python, Django, Redis, MySQL, AWS Lambda, S3, and CloudFront, and contributed to frontend development with Vue.js and Node.js when needed. Also collaborated with product, mobile, and frontend teams, using BigQuery, Google Cloud Functions, Jenkins, Docker, and Git in daily workflows."
     },
     {
       "name": "Softtech",
-      "position": "Intern",
-      "startDate": "15 August 2021",
-      "endDate": "15 September 2021",
-      "summary": "Developed a REST API using Spring Boot and relational database connections. Spring Batch project for adding and validating multiple records to the PostgreSQL database."
+      "position": "Full-Stack Developer – Insurance Team",
+      "startDate": "Sep 2021",
+      "endDate": "May 2023",
+      "summary": "Developed backend services for insurance products using Java, Spring, SOAP, and Oracle Database. Contributed to integrations and business flows supporting insurance-related functionality, developed features for the İşCep mobile application, and worked with Java on both backend services and frontend development using Google Web Toolkit in an enterprise environment."
+    },
+    {
+      "name": "Softtech",
+      "position": "Intern – Insurance Team",
+      "startDate": "Aug 2021",
+      "endDate": "Sep 2021",
+      "summary": "Created a Spring Boot and Spring Batch project that processed thousands of CSV records and stored them in a database efficiently, gaining hands-on experience with batch processing, backend development, and data handling in Java."
+    }
+  ],
+  "education": [
+    {
+      "name": "Karadeniz Technical University",
+      "degree": "B.Sc. in Computer Engineering",
+      "startDate": "Sep 2017",
+      "endDate": "Sep 2021"
     }
   ]
 }
