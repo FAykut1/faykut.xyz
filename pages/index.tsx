@@ -4,6 +4,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import ITag from '../components/ITag';
 import { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import ExperienceCard from '../components/ExperienceCard';
 import { useQuery } from 'react-query';
 
@@ -161,6 +162,37 @@ const Home: NextPage = () => {
                     endDate={item.endDate}
                   />
                 ))}
+              </div>
+            </section>
+
+            <section className="border-t border-white/10 px-6 py-8 md:px-10 md:py-10">
+              <div className="mb-6">
+                <p className="section-label">Apps</p>
+                <h2 className="section-title">Published mobile app</h2>
+              </div>
+              <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+                <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white">A-Turret</h3>
+                    <p className="mt-2 max-w-2xl text-slate-300">
+                      An Android game published on Google Play. Visit the product page or open its privacy policy.
+                    </p>
+                  </div>
+                  <div className="flex flex-wrap gap-3">
+                    <Link
+                      href="/aturret"
+                      className="rounded-full bg-white px-5 py-3 font-semibold text-slate-950 transition hover:scale-[1.02]"
+                    >
+                      Open app page
+                    </Link>
+                    <Link
+                      href="/aturret/privacy-policy"
+                      className="rounded-full border border-white/15 px-5 py-3 font-semibold text-white transition hover:border-cyan-300 hover:text-cyan-200"
+                    >
+                      Privacy policy
+                    </Link>
+                  </div>
+                </div>
               </div>
             </section>
 
